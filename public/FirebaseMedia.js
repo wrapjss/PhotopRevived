@@ -9,13 +9,13 @@ AppScript.addEventListener('load', function () {
   var StoreScript = loadScript("https://www.gstatic.com/firebasejs/8.2.9/firebase-storage.js");
   StoreScript.addEventListener('load', function () {
     var ProjectKeys = {
-      apiKey: "AIzaSyAo_uUkNH0dlQKDVUKrvAknpORRZhp99zk",
-      authDomain: "parcel-7d05a.firebaseapp.com",
-      projectId: "parcel-7d05a",
-      storageBucket: "parcel-7d05a.appspot.com",
-      messagingSenderId: "967056884979",
-      appId: "1:967056884979:web:ee98892eb7ad1aa3696386",
-      measurementId: "G-X8VENXYGS6"
+      apiKey: "AIzaSyBSF6XNS0GpEDGJlzR_3KuhoTHOupfvIw4",
+      authDomain: "photoprevived.firebaseapp.com",
+      projectId: "photoprevived",
+      storageBucket: "photoprevived.appspot.com",
+      messagingSenderId: "265550544257",
+      appId: "1:265550544257:web:cb3f16939679e4f8db7c80",
+      measurementId: "G-421X488FM5"
     };
     firebase.initializeApp(ProjectKeys);
     // firebase.analytics();
